@@ -87,6 +87,10 @@ The results shows A* Search with "ignore preconditions" heuristics
 is the best solution to solve the air cargo problems
 because it finds optimal path with the minimum time.
 
+From Norvig and Russell’s textbook, removing preconditions relax
+this planning problem with subgoal independence. Then this heuristic
+ become admissible so A* Search can find optimal solutions.
+
 Depth First Search can find path very quickly
 but the path is not optimal.
 
